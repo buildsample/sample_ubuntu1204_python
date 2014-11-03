@@ -19,7 +19,7 @@ before_install:
   
 install:
   - pip install -r requirements.txt
-
+archive: true
 # Make folders for the reports
 before_script:
   - python --version
