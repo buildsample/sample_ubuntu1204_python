@@ -20,6 +20,7 @@ before_install:
   - source $HOME/sample_ve/bin/activate
   - chmod -R 777 .
   - ls -al .
+  - python --version 
   
 install:
   - pip install -r requirements.txt
